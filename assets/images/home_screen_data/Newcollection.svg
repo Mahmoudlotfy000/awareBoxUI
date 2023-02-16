@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196.835" height="181.761" viewBox="0 0 196.835 181.761">
+  <defs>
+    <filter id="Path_31" x="0" y="0" width="184.596" height="169.644" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.23" result="blur"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3005" data-name="Group 3005" transform="translate(-529.147 -1006.329)">
+    <g id="Group_3004" data-name="Group 3004">
+      <path id="Path_29" data-name="Path 29" d="M459.982,277.441V305.9l-8.835-12.172a8.728,8.728,0,0,1-1.664-5.125V277.674S459.4,276.858,459.982,277.441Z" transform="translate(90.355 882.187)" fill="#2faa34"/>
+      <path id="Path_30" data-name="Path 30" d="M272.391,468.09h26.957l-10.667-8.834a8.721,8.721,0,0,0-5.124-1.664H272.625S271.808,467.507,272.391,468.09Z" transform="translate(426.634 556.428)" fill="#2faa34"/>
+      <g transform="matrix(1, 0, 0, 1, 529.15, 1006.33)" filter="url(#Path_31)">
+        <path id="Path_31-2" data-name="Path 31" d="M458.325,295.2,287.111,451.3V403.136a6.167,6.167,0,0,1,2.15-4.621L401.407,297.091a7.4,7.4,0,0,1,4.83-1.807C418.047,295.186,457.923,294.836,458.325,295.2Z" transform="translate(-276.42 -287.35)" fill="#53b357"/>
+      </g>
+    </g>
+    <text id="new_collection" data-name="new collection" transform="matrix(0.731, -0.682, 0.682, 0.731, 617.508, 1089.156)" fill="#fff" font-size="29.289" font-family="BebasNeueBold, Bebas Neue" letter-spacing="0.02em"><tspan x="-78.436" y="0">new collection</tspan></text>
+  </g>
+</svg>
