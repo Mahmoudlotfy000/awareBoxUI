@@ -25,13 +25,13 @@ class Strings {
   static const String awarebox = "awareBox";
 
   static const String categoryAll = "All";
-  static const String categoryHome = "Home";
-  static const String categoryBags = "Bags";
-  static const String categoryJewellery = "Jewellery";
-  static const String categoriesOutdoors = "Outdoors";
+  static const String categoryHome = "Home & Kitchen";
+  static const String categoryBags = "Bags & Wallets";
+  static const String categoryJewellery = "Jewelery & Accessories";
+  static const String categoriesOutdoors = "Outdoor & Picnic";
   static const String categoriesCamping = "Camping";
   static const String categoriesPerfumes = "Perfumes";
-  static const String categoriesArt = "Art";
+  static const String categoriesArt = "Art & Decor";
   static const String constSeller = "seller";
   static const String constBuyer = "buyer";
 

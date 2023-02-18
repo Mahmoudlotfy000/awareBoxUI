@@ -1,4 +1,33 @@
+// ignore_for_file: constant_identifier_names
+
 class AssetIcons {
+  static const String arrow_forward_white =
+      "assets/images/common_icons/arrow_forward_white.svg";
+  static const String arrow_forward_black =
+      "assets/images/common_icons/arrow_forward_black.png";
+  static const String white_bird_icon =
+      "assets/images/common_icons/white_bird_icon.png";
+  static const String dropdown = "assets/images/common_icons/dropdown.svg";
+  static const String close_logo = "assets/images/common_icons/close.svg";
+  static const String unselected_radio_button =
+      "assets/images/common_icons/unselected_radio_button.png";
+  static const String selected_radio_button =
+      "assets/images/common_icons/selected_radio_button.png";
+  static const String next_icon =
+      "assets/images/common_icons/navigate_next.svg";
+  static const String delete_icon = "assets/images/common_icons/delete.svg";
+  static const String remove_icon = "assets/images/common_icons/remove.svg";
+  static const String deactivate_icon =
+      "assets/images/common_icons/deactivate.svg";
+  static const String done_tick_icon =
+      "assets/images/common_icons/done_tick.svg";
+  static const String confirmed_order_icon =
+      "assets/images/common_icons/confirmed_order.svg";
+  static const String photo_placeholder =
+      "assets/images/common_icons/photo_placeholder.svg";
+  static const String profile_placeholder =
+      "assets/images/common_icons/profile_placeholder.svg";
+
   static const String bagIcon = "assets/images/home_screen_data/bag.svg";
   static const String jewelleryIcon =
       "assets/images/home_screen_data/jewellery.svg";
