@@ -45,8 +45,8 @@ class HomeCategories extends StatelessWidget {
                           padding: const EdgeInsets.symmetric(
                               horizontal: AppPadding.p5),
                           child: Container(
-                            width: kwidth(context) / 5,
-                            height: kheight(context) / 10,
+                            width: width(context) / 5,
+                            height: height(context) / 10,
                             decoration: BoxDecoration(
                               border: Border.all(
                                   color: BlocProvider.of<HomeBloc>(context)

@@ -1,3 +1,4 @@
+
 class AwareboxSize {
   static const double borderRadius = 8.0;
   static const double borderWidth = 1;
@@ -14,3 +15,4 @@ class AwareboxSize {
   static const double rejectedButtonBorderWidth = 0.5;
   static const double reviewStarIconSize = 10;
 }
+

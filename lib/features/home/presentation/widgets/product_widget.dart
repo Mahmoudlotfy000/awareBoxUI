@@ -36,7 +36,8 @@ class ProductWidget extends StatelessWidget {
               InkWell(
                 splashColor: AwareboxColors.transparentBG,
                 highlightColor: AwareboxColors.transparentBG,
-                onTap: () async {},
+                onTap: ()  {
+                },
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,8 +46,8 @@ class ProductWidget extends StatelessWidget {
                       children: <Widget>[
                         //Product Image
                         SizedBox(
-                          height: kheight(context) / 3.3,
-                          width: kwidth(context) / 2,
+                          height: height(context) / 3.3,
+                          width: width(context) / 2,
                           child: AppImageLoader.withImage(
                               imageUrl:
                                   "https://cdn.photoworkout.com/images/ideas/product-photography-ideas/Natural%20Shadows.jpg",
@@ -190,9 +191,9 @@ class ProductWidget extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Container(
-                      height: kheight(context) / 17,
+                      height: height(context) / 17,
                       color: AwareboxColors.hintBGLight,
-                      width: kwidth(context),
+                      width: width(context),
                       child: Directionality(
                         textDirection: TextDirection.ltr,
                         child: Column(
@@ -200,7 +201,7 @@ class ProductWidget extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
                             SizedBox(
-                              width: kwidth(context),
+                              width: width(context),
                               child: Center(
                                 child: Padding(
                                   padding: const EdgeInsets.symmetric(
@@ -238,7 +239,7 @@ class ProductWidget extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              width: kwidth(context),
+                              width: width(context),
                               child: FittedBox(
                                 fit: BoxFit.scaleDown,
                                 child: SizedBox(
@@ -274,8 +275,8 @@ class ProductWidget extends StatelessWidget {
                   Expanded(
                     child: Container(
                       color: AwareboxColors.orangeBG,
-                      height: kheight(context) / 17,
-                      width: kwidth(context),
+                      height: height(context) / 17,
+                      width: width(context),
                       child: GestureDetector(
                         onTap: () async {},
                         child: Icon(

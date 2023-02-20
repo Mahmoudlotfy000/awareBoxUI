@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'awareBox',
         theme: lightTheme,
-        initialRoute: RoutePaths.layout,
+        initialRoute: RoutePaths.productDetailsView ,
         onGenerateRoute: generateRoute,
       ),
     );

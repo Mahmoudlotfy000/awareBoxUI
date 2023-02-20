@@ -13,7 +13,7 @@ class HomeAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 108,
-      width: kwidth(context),
+      width: width(context),
       decoration: BoxDecoration(
           color: AwareboxColors.whiteBG,
           borderRadius: const BorderRadius.only(

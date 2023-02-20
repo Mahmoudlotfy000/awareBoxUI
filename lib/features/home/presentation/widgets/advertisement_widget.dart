@@ -22,13 +22,13 @@ class AdvertismntWidget extends StatelessWidget {
           horizontal: AppPadding.p14, vertical: AppPadding.p12),
       child: Container(
         color: AwareboxColors.lightGreyHome,
-        width: kwidth(context),
+        width: width(context),
         child: CarouselSlider.builder(
           options: CarouselOptions(
             initialPage: 0,
             viewportFraction: 1,
             autoPlay: true,
-            height: kheight(context) / 7,
+            height: height(context) / 7,
             autoPlayAnimationDuration: const Duration(milliseconds: 100),
           ),
           itemCount: images.length,
@@ -37,8 +37,8 @@ class AdvertismntWidget extends StatelessWidget {
             child: Stack(
               children: [
                 Container(
-                  height: kheight(context) / 6,
-                  width: kwidth(context),
+                  height: height(context) / 6,
+                  width: width(context),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                   ),
@@ -53,7 +53,7 @@ class AdvertismntWidget extends StatelessWidget {
                 Positioned(
                   bottom: 0,
                   child: Container(
-                    width: kwidth(context),
+                    width: width(context),
                     height: 20,
                     decoration: BoxDecoration(
                         color: AwareboxColors.whiteBG.withOpacity(0.5)),

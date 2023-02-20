@@ -72,7 +72,7 @@ class _HomeSearchWidgetState extends State<HomeSearchWidget> {
             Expanded(
               flex: 1,
               child: Padding(
-                padding: const EdgeInsets.only(left: 10, right: AppSize.s12),
+                padding: const EdgeInsets.only(left: 5, right: AppSize.s12),
                 child: Material(
                   color: AwareboxColors.greyHomeScreen,
                   child: DropdownButtonHideUnderline(
